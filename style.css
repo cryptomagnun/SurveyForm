@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    
+}
+#title{
+    font-size: 30px;
+    margin-bottom: 20px;
+  
+}
+#description{
+    font-size: 20px;
+}
+
+
+fieldset{
+    margin: 100px 100px 100px 100px;
+    line-height: 50px;
+    width: fit-content;
+    margin: auto;
+  width: 40%;
+  border: 3px solid green;
+  padding: 10px;
+    
+}

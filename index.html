@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">Survey Form Page</div>
+    <div id="description">Contact Us Survey Form </div>
+    <form id="survey-form">
+        <fieldset>
+            <legend>Welcome</legend>
+        
+       <div class="name">
+           
+           <label for="name" id="name-label">Enter Your Name:</label>
+           <input type="text" name="name" id="name">
+           
+           
+       </div>
+        
+        <div class="email">
+            <label for="email" id="email-label">Enter your Email id:</label>
+            <input type="email" name="email" id="email">
+            
+        </div>
+        <div class="dropdown">
+            <label for="dropdown">Choose a City:</label>
+            <select name="City" id="dropdown">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Goa">Goa</option>
+            <option value="Pune">Pune</option>
+            </select>
+        </div>
+        <div class="mobilenumber">
+            <label for="mobile">Enter your Mobile Number</label>
+            <input type="text" maxlength="10"  pattern="[0-9]{10}" title="Enter your mobile number" name="mobile" id="mobile">
+        </div>
+
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Male" value="Male" >
+        
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender" id="Female" value="Female" >
+        
+        <div class="submitbutton">
+            
+        <input type="submit" value="Submit Form" id="Submit">
+        </div>
+        
+</fieldset>
+
+
+
+
+    </form>
+</body>
+</html>
